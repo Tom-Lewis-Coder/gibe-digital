@@ -1,0 +1,63 @@
+html,
+body {
+    min-height: 100vh;
+    background-image: url("./stadium-pic\ \(1\).jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    max-height: 90vh;
+    color: white;
+    font-family: "Roboto", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.logo {
+    margin-bottom: 4rem;
+    font-size: 50px;
+    border: 10px solid white;
+    border-radius: 40% 40% 0 40%;
+    padding: 2rem;
+}
+
+.coming-soon {
+    font-size: 15px;
+    color: #E6E6E6;
+}
+
+.footer {
+    width: 90%;
+    position: fixed;
+    bottom: 5%;
+    justify-content: space-between;
+    justify-self: flex-end;
+}
+
+.divider {
+    width: 100%;
+    border-bottom: 1px solid #4E4E4E;
+    align-self: flex-end;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trademark,
+.contact {
+    padding-top: 1.25rem;
+    font-size: 8px;
+}
+
+.trademark {
+    color: #AFAFAF;
+}
